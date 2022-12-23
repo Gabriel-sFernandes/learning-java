@@ -1,2 +1,2 @@
-# test-2
- just testing btw
+# Learning Java
+ Some Java programs
