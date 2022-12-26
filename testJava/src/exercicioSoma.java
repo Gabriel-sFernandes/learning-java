@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio {
+public class exercicioSoma {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class exercicio {
         
         soma = A + B;
 
-        System.out.println(soma);
+        System.out.println("SOMA = " + soma);
         sc.close();
     }
 }
