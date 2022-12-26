@@ -6,6 +6,7 @@ public class exercicioSalario {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);        
 
         int nmrFunc, horasTrab;
         double valorHora, salario;
@@ -16,7 +17,6 @@ public class exercicioSalario {
 
         salario = horasTrab * valorHora;
 
-        Locale.setDefault(Locale.US);
         System.out.printf("NUMBER = %d\nSALARY = US$ %.2f", nmrFunc, salario);
         sc.close();
 
