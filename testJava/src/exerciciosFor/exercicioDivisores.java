@@ -7,10 +7,10 @@ public class exercicioDivisores {
 
 		Scanner sc = new Scanner(System.in);
 
-		int n = sc.nextInt();
+		int nmr = sc.nextInt();
 		
-		for (int i=1; i<=n; i++) {
-			if (n % i == 0) {
+		for (int i = 1; i <= nmr; i++) {
+			if (nmr % i == 0) {
 				System.out.println(i);
 			}
 		}
