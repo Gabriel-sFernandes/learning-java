@@ -5,8 +5,8 @@ public class exercicioFatorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int nmr = sc.nextInt();
-        int result;
+        long nmr = sc.nextLong();
+        long result;
         result =  1;
 
         for (int i = 1; i <= nmr; i++) {
